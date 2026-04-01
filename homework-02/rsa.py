@@ -43,7 +43,7 @@ def multiplicative_inverse(e: int, phi: int) -> int:
 
     x0, x1 = e, phi
     y0, y1 = 1, 0
-    t0, t1 = 0, 1
+    z0, z1 = 0, 1
 
     while x1 != 0:
         q = x0 // x1
